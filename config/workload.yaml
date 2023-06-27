@@ -25,6 +25,6 @@ spec:
       description: Weather report management
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/cdelashmutt-pivotal/weatherforecast-steeltoe
       ref:
         branch: main
