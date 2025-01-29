@@ -1,0 +1,13 @@
+#prereq:
+#  dotnet publish -o publish Sample.csproj 
+---
+applications:
+- name: weatherforcast
+  
+  path: ./publish
+  random-route: true
+
+  services:
+    - weather-db 
+  env:
+  #  CUSTOM_ENV: custom_value
