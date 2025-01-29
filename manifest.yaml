@@ -7,7 +7,8 @@ applications:
   path: ./publish
   random-route: true
 
-  services:
-    - weather-db 
-  env:
+  #services:
+  #  - weather-db 
+  
+  #env:
   #  CUSTOM_ENV: custom_value
